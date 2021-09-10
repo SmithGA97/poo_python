@@ -1,0 +1,38 @@
+class carro:
+    pais = "Colombia"
+    
+    def __init__(self, marca, cilindraje, color):
+        self.marca = marca
+        self.cilindraje = cilindraje
+        self.color = color
+        fecha_compra = 2021
+        
+    print(__init__.__ge__)
+
+    def andar():
+        print('El carro esta andando')
+
+mustran = carro(12 ,45,"Azul")
+print(mustran.marca)
+print(mustran.__ge__)
+
+""" class Coordenada:
+
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def distancia(self, otra_coordendada):
+        x_diff = (self.x - otra_coordendada.x)**2
+        y_diff = (self.y - otra_coordendada.y)**2
+
+        return (x_diff + y_diff)**0.5
+
+
+if __name__ == '__main__':
+    coord_1 = Coordenada(3, 30)
+    coord_2 = Coordenada(4, 8)
+
+    #print(coord_1.distancia(coord_2))
+    print(isinstance(3, Coordenada)) """
+
